@@ -10,6 +10,7 @@ export default function Weather() {
               type="search"
               placeholder="Enter a city..."
               className="form-control"
+              autoFocus="on"
             />
           </div>
           <div className="col-3">
@@ -32,7 +33,7 @@ export default function Weather() {
             src="https://ssl.gstatic.com/onebox/weather/64/sunny.png"
             alt="weather icon"
           ></img>
-          <h2>6°C</h2>
+          6°C
         </div>
         <div className="col-6">
           <ul>
