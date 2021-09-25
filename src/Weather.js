@@ -27,15 +27,22 @@ export default function Weather() {
         <li>Wednesday 12:00</li>
         <li>Clear sky</li>
       </ul>
-      <div className="row">
+      <div className="row mt-3">
         <div className="col-6">
-          <img
-            src="https://ssl.gstatic.com/onebox/weather/64/sunny.png"
-            alt="weather icon"
-          ></img>
-          6°C
+          <div className="row">
+            <div className="col-3">
+              <img
+                src="https://ssl.gstatic.com/onebox/weather/64/sunny.png"
+                alt="weather icon"
+              ></img>
+            </div>
+            <div className="col-3">
+              <span className="temperature">6</span>
+              <span className="unit">°C</span>
+            </div>
+          </div>
         </div>
-        <div className="col-6">
+        <div className="col-6 mt-3">
           <ul>
             <li>Humidity: 72%</li>
             <li>Wind: 13 km/h </li>
