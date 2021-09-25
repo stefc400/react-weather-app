@@ -9,7 +9,7 @@
 .Weather h1 {
   font-size: 24px;
   font-weight: 100;
-  margin: 20px 0 0 0;
+  margin: 25px 0 0 0;
   line-height: 29px;
 }
 .Weather li {
@@ -22,9 +22,7 @@
   margin: 0;
   padding: 0;
 }
-.Weather img {
-  height: 64px;
-  width: 64px;
+.Weather canvas {
   display: inline-block;
 }
 .Weather .temperature {
